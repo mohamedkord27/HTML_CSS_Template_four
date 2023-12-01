@@ -1,0 +1,330 @@
+:root{
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --main-tansition:0.5s;
+}
+/* Start Display */
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}
+
+@media (max-width:767px) {
+    .txt-c-mobile{
+        text-align: center;
+    }
+    .block-mobile{
+        display: block;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}
+/* End Display */
+/* Start Color */
+.bg-white{
+    background-color: white;
+}
+.bg-ddd{
+    background-color: #ddd;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-red{
+    background-color: #ff000033;
+}
+.bg-red-2{
+    background-color: #f44336;
+}
+.bg-blue{
+    background-color: #0000ff33;
+}
+.bg-blue-2{
+    background-color: #0d69d5;
+}
+.bg-blue-3{
+    background-color: var(--blue-color);
+}
+.bg-orange{
+    background-color: #ff9900;
+}
+.bg-orange-2{
+    background-color: #ffda99;
+}
+.bg-green{
+    background-color: #00c867;
+}
+.bg-green-2{
+    background-color:#99cda3;
+}
+.bg-tw{
+    background-color: #1da1f2;
+}
+.bg-fa{
+    background-color: #1877f2;
+}
+.bg-lin{
+    background-color: #0a66c2;
+}
+.bg-you{
+    background-color: #ff0000;
+}
+.c-white{
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.c-blue{
+    color: #0075ff;
+}
+.c-blue-2{
+    color: #0d69d5 ;
+}
+.c-orange{
+    color: #f59e0b;
+}
+.c-green{
+    color: #22c55e;
+}
+.c-red{
+    color: #f44336;
+}
+.c-grey{
+    color: #888;
+}
+.c-tw{
+    color: #1da1f2;
+}
+.c-fa{
+    color: #1877f2;
+}
+.c-lin{
+    color: #0a66c2;
+}
+.c-you{
+    color: #ff0000;
+}
+/* End Color */
+/* Start Padding + Margin */
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.p-20-0{
+    padding: 20px 0;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pl-20{
+    padding-left: 20px;
+}
+.pl-30{
+    padding-left: 30px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-0{
+    margin: 0;
+}
+.m-10{
+    margin: 10px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.m-10-0{
+    margin: 10px 0;
+}
+.m-20-0{
+    margin: 20px 0;
+}
+.m-15{
+    margin: 15px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-30{
+    margin-left: 30px;
+}
+
+/* End Padding + Margin */
+/* Start Position */
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.transition{
+    transition: 0.5s;
+}
+/* End Position */
+/* Start Font - border - box-shadow*/
+.txt-c{
+    text-align: center;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.w-full{
+    width: 100%;
+}
+.w-fit{
+    width: fit-content;
+}
+.border{
+    border: 1px solid #ccc;
+}
+.b-bottom{
+    border: 1px solid #ccc;
+}
+.b-none{
+    border: none;
+}
+.rad-half{
+    border-radius: 50%;
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.rad-20{
+    border-radius: 20px;
+}
+.b-shadow{
+    box-shadow: 0 0 10px #ddd;
+}
+.l-height{
+    line-height: 1.8;
+}
+/* End Font */
+/* Start Component */
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* End Component */
